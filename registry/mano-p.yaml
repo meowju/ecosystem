@@ -1,0 +1,18 @@
+name: mano-p
+description: Desktop GUI automation via natural language. Captures screenshots, sends to cloud vision model, executes click/type/scroll/drag/hotkey actions locally. Cloud mode (default) or local MLX mode on Apple Silicon.
+url: https://github.com/Mininglamp-AI/mano-skill
+source: Mininglamp-AI/mano-skill
+sourcePath: .
+superpowers:
+  - Desktop GUI automation via natural language commands
+  - Cloud vision model (Mano Model + Claude CUA routing)
+  - Local mode on Apple Silicon via MLX
+installation:
+  type: homebrew
+  command: brew tap Mininglamp-AI/tap && brew install mano-cua
+  alt_commands:
+    - openclaw skills install mano-cua
+    - clawhub install mano-cua
+  notes: Requires Screen Recording + Accessibility permissions. macOS preferred (Beta on Windows/Linux). Cloud mode works on any device; local mode requires M4+ chip with 32GB RAM.
+skills:
+  - mano-p

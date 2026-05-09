@@ -594,6 +594,12 @@
       "skillPath": "registry/xurl.yaml",
       "url": "https://github.com/openclaw/openclaw/tree/main/skills/xurl",
       "computedHash": "N/A"
+    },
+    "mano-p": {
+      "source": "local:meowju/skills",
+      "sourceType": "local",
+      "skillPath": "source/mano-p/SKILL.md",
+      "computedHash": "fa754e651f0e887aae132425ed59365ca64161b91bae951077da39777d9080f8"
     }
   }
 }

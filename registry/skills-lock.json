@@ -6,6 +6,192 @@
       "sourceType": "local",
       "skillPath": "source/skill-security-auditor/SKILL.md",
       "computedHash": "f28b194d07e441d91990aba4784ebd1bdd90960df6c96014225aae0da382c740"
+    },
+    "ag2": {
+      "source": "ecosystem:ag2.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/ag2.yaml",
+      "computedHash": "N/A"
+    },
+    "autoresearch": {
+      "source": "ecosystem:autoresearch.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/autoresearch.yaml",
+      "computedHash": "N/A"
+    },
+    "awesome-claude-code-subagents": {
+      "source": "ecosystem:awesome-claude-code-subagents.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/awesome-claude-code-subagents.yaml",
+      "computedHash": "N/A"
+    },
+    "claude-mem": {
+      "source": "ecosystem:claude-mem.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/claude-mem.yaml",
+      "computedHash": "N/A"
+    },
+    "claude-scientific-skills": {
+      "source": "ecosystem:claude-scientific-skills.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/claude-scientific-skills.yaml",
+      "computedHash": "N/A"
+    },
+    "claude-skills": {
+      "source": "ecosystem:claude-skills.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/claude-skills.yaml",
+      "computedHash": "N/A"
+    },
+    "creative-mcp-servers": {
+      "source": "ecosystem:creative-mcp-servers.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/creative-mcp-servers.yaml",
+      "computedHash": "N/A"
+    },
+    "crew-ai": {
+      "source": "ecosystem:crew-ai.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/crew-ai.yaml",
+      "computedHash": "N/A"
+    },
+    "dify": {
+      "source": "ecosystem:dify.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/dify.yaml",
+      "computedHash": "N/A"
+    },
+    "everything-claude-code": {
+      "source": "ecosystem:everything-claude-code.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/everything-claude-code.yaml",
+      "computedHash": "N/A"
+    },
+    "gemini-api-docs-mcp": {
+      "source": "ecosystem:gemini-api-docs-mcp.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/gemini-api-docs-mcp.yaml",
+      "computedHash": "N/A"
+    },
+    "gemini-cli": {
+      "source": "ecosystem:gemini-cli.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/gemini-cli.yaml",
+      "computedHash": "N/A"
+    },
+    "gemini-interactions-api": {
+      "source": "ecosystem:gemini-interactions-api.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/gemini-interactions-api.yaml",
+      "computedHash": "N/A"
+    },
+    "gsd": {
+      "source": "ecosystem:gsd.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/gsd.yaml",
+      "computedHash": "N/A"
+    },
+    "gstack": {
+      "source": "ecosystem:gstack.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/gstack.yaml",
+      "computedHash": "N/A"
+    },
+    "langgraph": {
+      "source": "ecosystem:langgraph.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/langgraph.yaml",
+      "computedHash": "N/A"
+    },
+    "mcp-firewall": {
+      "source": "ecosystem:mcp-firewall.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/mcp-firewall.yaml",
+      "computedHash": "N/A"
+    },
+    "mcp-memory-server": {
+      "source": "ecosystem:mcp-memory-server.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/mcp-memory-server.yaml",
+      "computedHash": "N/A"
+    },
+    "mcp-servers": {
+      "source": "ecosystem:mcp-servers.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/mcp-servers.yaml",
+      "computedHash": "N/A"
+    },
+    "memento": {
+      "source": "ecosystem:memento.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/memento.yaml",
+      "computedHash": "N/A"
+    },
+    "mle-bench": {
+      "source": "ecosystem:mle-bench.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/mle-bench.yaml",
+      "computedHash": "N/A"
+    },
+    "n8n": {
+      "source": "ecosystem:n8n.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/n8n.yaml",
+      "computedHash": "N/A"
+    },
+    "next-ai-draw-io": {
+      "source": "ecosystem:next-ai-draw-io.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/next-ai-draw-io.yaml",
+      "computedHash": "N/A"
+    },
+    "ollama": {
+      "source": "ecosystem:ollama.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/ollama.yaml",
+      "computedHash": "N/A"
+    },
+    "openai-assistant-swarm": {
+      "source": "ecosystem:openai-assistant-swarm.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/openai-assistant-swarm.yaml",
+      "computedHash": "N/A"
+    },
+    "openai-swarm": {
+      "source": "ecosystem:openai-swarm.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/openai-swarm.yaml",
+      "computedHash": "N/A"
+    },
+    "planetscale-agent-skill": {
+      "source": "ecosystem:planetscale-agent-skill.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/planetscale-agent-skill.yaml",
+      "computedHash": "N/A"
+    },
+    "ragflow": {
+      "source": "ecosystem:ragflow.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/ragflow.yaml",
+      "computedHash": "N/A"
+    },
+    "sas-audio-processor": {
+      "source": "ecosystem:sas-audio-processor.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/sas-audio-processor.yaml",
+      "computedHash": "N/A"
+    },
+    "superpowers": {
+      "source": "ecosystem:superpowers.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/superpowers.yaml",
+      "computedHash": "N/A"
+    },
+    "system-prompts": {
+      "source": "ecosystem:system-prompts.yaml",
+      "sourceType": "registry",
+      "skillPath": "registry/system-prompts.yaml",
+      "computedHash": "N/A"
     }
   }
 }

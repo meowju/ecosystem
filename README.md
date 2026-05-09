@@ -1,40 +1,30 @@
 # Skills Registry
 
-Our internal skill registry. Only stores skills we authored or have deep ownership of.
+Our internal skill registry. Stores references to both ecosystem skills and skills we author.
 
 ## Structure
 
 ```
 skills/
 ├── registry/
-│   ├── skills-lock.json   # Skill index with hashes (auto-generated, commit this)
-│   └── README.md
-└── source/                # Local skill implementations
-    ├── docx/
-    ├── pdf/
-    ├── pptx/
-    ├── skill-creator/
-    ├── skill-security-auditor/
-    └── xlsx/
+│   ├── skills-lock.json   # Master index (auto-generated)
+│   ├── skill-security-auditor.yaml  # local: our security scanner
+│   ├── ag2.yaml           # ecosystem
+│   ├── superpowers.yaml    # ecosystem
+│   └── ...                # 30 more ecosystem entries
+└── source/
+    └── skill-security-auditor/  # local skill implementation
 ```
-
-## Design
-
-- **Local skills only.** Third-party skills stay in their own repos. We reference them, not store them.
-- **skills-lock.json** is the canonical index. Entries have `source`, `sourceType`, `skillPath`, `computedHash`.
-- **`origin: local`** in each SKILL.md frontmatter marks it as ours.
 
 ## Adding a New Skill
 
-1. Copy skill to `source/<name>/`
-2. Ensure SKILL.md has `origin: local` in frontmatter
-3. Regenerate `registry/skills-lock.json` with `node scripts/gen-lock.js`
-4. Commit and push
-
-## License
-
-Proprietary skills (docx, pdf, pptx, xlsx, skill-creator, skill-security-auditor) are licensed per their individual LICENSE.txt files.
+**Ecosystem skill:** Add a YAML entry to `registry/<name>.yaml` and update `skills-lock.json`.
+**Local skill:** Copy to `source/<name>/`, add YAML to `registry/`, update `skills-lock.json`.
 
 ## Remote
 
-https://github.com/meowju/skills
+https://github.com/meowju/skills — default branch: `main`
+
+## License
+
+Individual skills have their own licenses. See each skill's `LICENSE.txt` or `LICENSE` file.

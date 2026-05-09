@@ -1,0 +1,12 @@
+name: Next AI Draw.io
+description: A Next.js web application that integrates AI capabilities with draw.io, allowing users to create and modify diagrams through natural language commands.
+url: https://github.com/DayuanJiang/next-ai-draw-io
+superpowers:
+  - AI-assisted diagram generation and modification
+  - Supports complex architectures (Transformer, RAG, Serverless)
+  - Interactive diagram editor with AI prompt integration
+  - Electron-based desktop support for offline diagramming
+installation:
+  type: manual_link
+  install_command: git clone https://github.com/DayuanJiang/next-ai-draw-io
+  notes: Requires setting up AI provider keys in .env.local. Run `npm install` then `npm run dev`. Default port is 6002.
